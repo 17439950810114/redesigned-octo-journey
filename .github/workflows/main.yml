@@ -1,0 +1,15 @@
+name:test
+
+on:
+
+  workflow_dispatch:
+
+jobs:
+
+  build:
+
+    name: Start Building...
+
+    runs-on: self-hosted
+
+    timeout-minutes: 898989898989898989898989898989989898
